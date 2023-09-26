@@ -5,6 +5,7 @@ import AboutUs from '../AboutUs/AboutUs'
 import Practices from '../Practices/Practices'
 import Reviews from '../../Reviews/Reviews'
 import Team from '../Team/Team'
+import FaqSection from '../FaqSection/FaqSection'
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <Practices/>
       <Reviews/>
       <Team/>
+      <FaqSection/>
     </div>
   )
 }

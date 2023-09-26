@@ -54,10 +54,9 @@ align-items: center;
     font-weight: 500;
 }
 .cardSection{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
     gap: 3rem;
     margin-right: 9rem;
     margin-left: 9rem;
