@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 23rem;
+    height: 23.5rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+    border: 2px solid rgba(255,255,255,0.1);
+    align-items: flex-start;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 1.5rem 1rem;
+}
+.wrapper:hover{
+    background-color: #2e2e2e;
+    border: 1px solid #2e2e2e;
+}
+.title{
+    margin-top: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.content{
+    font-size: o.9rem;
+    font-weight: 500;
+    opacity: 30%;
+    margin-top: 1.3rem;
+}
+.readBtn{
+    height: 2.5rem;
+    width: 7.5rem;
+    border-radius: 1.5rem;
+    margin-top: 1.5rem;
+    color: var(--black-color);
+    background-color: var(--orange-color);
+}

@@ -1,0 +1,62 @@
+.wrapper{
+margin-top: 5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.aboutSection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9rem;
+    margin-right: 1rem;
+}
+.leftSection{
+    width: 50%;
+    margin-top: 2rem;
+}
+.leftText{
+    text-align: left;
+    font-size: 3.3rem;
+    font-weight: 600;
+}
+.rightSection{
+    width: 50%;
+    padding-left: 4rem;
+    padding-top: 1rem;
+    border-left: 1px solid #6A6A6A;
+    margin-right: 10rem; 
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.rightHeader{
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-weight: 600;
+ 
+}
+.rightText{
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 30%;
+}
+.whySection{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whytxt{
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+.cardSection{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 3rem;
+}
