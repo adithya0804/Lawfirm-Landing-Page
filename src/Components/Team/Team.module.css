@@ -1,0 +1,19 @@
+.wrapper{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 9rem;
+    margin-right: 9rem;
+}
+.heading{
+    font-weight: 600;
+    font-size: 3.33rem;
+}
+.grid{
+    margin-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}

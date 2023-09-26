@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar'
 import AboutUs from '../AboutUs/AboutUs'
 import Practices from '../Practices/Practices'
 import Reviews from '../../Reviews/Reviews'
+import Team from '../Team/Team'
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <AboutUs/>
       <Practices/>
       <Reviews/>
+      <Team/>
     </div>
   )
 }
