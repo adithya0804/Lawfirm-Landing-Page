@@ -18,7 +18,7 @@ width: 50%;
     color: var(--white-color);
     opacity: 30%;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 38rem;
     margin-top: 1rem;
 }
@@ -31,4 +31,46 @@ width: 50%;
     height:  545px;
     width: 468px;
     background: url(../../Assets/heroImg.svg);
+}
+.searchWrapper{
+    display: flex;
+    align-items: center;
+    background-color: #292929;
+    padding: 0.3rem 0.1rem 0.3rem 1.5rem;
+    width: 55%;
+    border-radius: 100px;
+    margin-top: 1rem;
+    height: 3.5rem;
+
+}
+.email{
+    width: 23px;
+    height: 19px;
+}
+.inputBox{
+    border: none;
+    outline: none;
+    background-color: #292929;
+    padding: 1rem;
+    font: inherit;
+    color: var(--white-color);
+}
+.talkButton{
+    padding: 0.6rem 1.1rem;
+    font: inherit;
+    font-weight: 600;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    background-color: var(--orange-color);
+}
+.searchContainer{
+    margin-top: 2rem;
+
+}
+.statusMsg{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    font-weight: 500;
 }

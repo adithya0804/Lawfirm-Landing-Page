@@ -1,0 +1,58 @@
+.wrapper{
+    margin-top: 5rem;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    padding:6rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(71, 71, 71, 0.5);
+;
+}
+.title{
+      font: inherit;
+    font-weight: 500;
+    font-size: 3.33rem;
+  
+}
+.formContainer{
+    margin-top: 2rem;
+    width:80%;
+  
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.nameField{
+        height: 3rem;
+    padding-left: 1rem;
+  min-width: 30%;
+  border-radius: 10px 0 0px 10px
+}
+.emailField{
+      height: 3rem;
+     padding-left: 1rem;
+  min-width: 30%;
+}
+.submitBtn{
+      height: 3rem;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: var(--orange-color);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+.statusMsg{
+       margin-top: 1rem;
+    font-size: 1.1rem;
+    padding-left: 18rem;
+    font-weight: 500;
+    padding-bottom: 0rem;
+}
