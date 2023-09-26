@@ -18,9 +18,9 @@ const AboutUs = () => {
       <div className={styles.whySection}>
         <div className={styles.whytxt}>Why Choose us?</div>
         <div className={styles.cardSection}>
-            <Card title={"100% Success"}/>
-            <Card title={"98% Success"}/>
-            <Card title={"100% Success"}/>
+            <Card title={"100% Success Rate"}/>
+            <Card title={"98% Success Rate"}/>
+            <Card title={"100% Success Rate"}/>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import HeroSection from '../HeroSection/HeroSection'
 import Navbar from '../Navbar/Navbar'
 import AboutUs from '../AboutUs/AboutUs'
+import Practices from '../Practices/Practices'
 
 const LandingPage = () => {
   return (
@@ -9,6 +10,7 @@ const LandingPage = () => {
         <Navbar/>
       <HeroSection/>
       <AboutUs/>
+      <Practices/>
     </div>
   )
 }
