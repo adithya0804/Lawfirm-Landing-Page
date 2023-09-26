@@ -1,0 +1,42 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+padding: 5rem 9rem 3rem ;
+}
+.footerContainer{
+    margin-top: 5rem;
+      background-color: var(--black-color);
+}
+.navLinks{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.navLink{
+  font: inherit;
+  font-weight: 600;
+  color: white;
+  border: 1px solid transparent;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.navLink:hover{
+  border-bottom: 1px solid white;
+}
+.socials{
+  display: flex;
+  gap: 1rem;
+}
+.logo{
+  cursor: pointer;
+}
+.legalInfo {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 0.8rem;
+  padding-bottom: 4rem;
+}
